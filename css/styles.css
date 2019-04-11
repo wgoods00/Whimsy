@@ -1,18 +1,24 @@
 body {
   background-color: #ffd6c2;
+  font: cursive;
 }
 
 hr {
-  border-style: none none dotted none;
+  border-style: none none dashed none;
   border-width: 5px;
   border-color: #df0054;
 }
 h1 {
     color: #480032;
+    font: small-caps bold 40px/2 cursive;
+    text-shadow: crimson 1px 0 10px;
 }
 h3 {
   color: #99235c;
+  font: small-caps bold 20px/2 cursive;
 }
 h2 {
   color: #480032;
+  font: small-caps bold 30px/2 cursive;
 }
+img {filter: drop-shadow(0 0 0.75rem crimson);}
