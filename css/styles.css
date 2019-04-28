@@ -1,6 +1,7 @@
 body {
-  background-color: #ffd6c2;
-  font: cursive;
+  background: radial-gradient(#ffd6c2, #f77fee);
+  font-family: Garamond;
+  margin: 0
 }
 
 hr {
@@ -8,17 +9,105 @@ hr {
   border-width: 5px;
   border-color: #df0054;
 }
+
 h1 {
-    color: #480032;
-    font: small-caps bold 40px/2 cursive;
-    text-shadow: crimson 1px 0 10px;
+  color: #480032;
+  font-family: Garamond, serif;
+  text-shadow: crimson 1px 0 10px;
+  font-size: 40px;
+  text-align: center;
 }
+
 h3 {
   color: #99235c;
-  font: small-caps bold 20px/2 cursive;
+  font: 'Patua One', cursive;
+  font-size: 20px;
+  text-align: center;
 }
+
 h2 {
   color: #480032;
-  font: small-caps bold 30px/2 cursive;
 }
-img {filter: drop-shadow(0 0 0.75rem crimson);}
+
+img {
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.circular {
+  border-radius: 100%
+}
+
+.paragraph {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.list {
+  font-size: 20px;
+  font-style: normal;
+}
+
+.top-container {
+  margin: 50px auto 50px auto;
+  text-align: center;
+}
+
+.middle-container1 {
+  text-align: left;
+  margin: 10px 200px 10px auto;
+}
+
+.middle-container2 {
+  text-align: right;
+    margin: 10px auto 10px 100px;
+}
+
+.bottom-container {
+  text-align: center;
+  margin: 500px 0 0 0;
+  background-color: #d61d4e;
+}
+
+.bracelets1 {
+  width: 30%;
+  position: relative;
+  float:left;
+  padding-left: 10px;
+  }
+
+.bracdesript {
+  position: relative;
+  float:left;
+  width: 40%;
+  padding: 30px;
+}
+.quartzpendant1 {
+  width: 20%;
+  position: relative;
+  float:right;
+  padding-right: 10px;
+}
+
+.quartzpendant1desc {
+  position: relative;
+  float:right;
+  padding: 30px;
+  width: 40%;
+}
+
+
+.btn {
+	background-color:#c7459e;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:3px solid #ab1967;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Garamond;
+	font-size:14px;
+	padding:12px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #662839;
+}
